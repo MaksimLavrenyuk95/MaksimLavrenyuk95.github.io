@@ -332,6 +332,12 @@ a {
 .column {
     width: 100%}
 }@media screen and (max-width:640px) {
+	.phone__number {
+	opacity: 0;
+	}
+	.phone__number_scroll {
+	opacity: 1;
+	}
     .menu__head: nth-child(6) {
     display: none;
 }
