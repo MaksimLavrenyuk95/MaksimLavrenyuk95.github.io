@@ -187,7 +187,7 @@ a {
     color: #f2ce61;
     font-size: 1.25rem;
 }
-.head_a_scroll {
+.head_a_scroll[href^=tel] {
     color: #000;
     border-right: 1px solid silver;
 }
