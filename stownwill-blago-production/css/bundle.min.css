@@ -574,7 +574,9 @@ input {
 
 }
 .submit {
-	
+	border-radius: 0px;
+	border: none;
+	 padding: 0;
     margin-top: 70px !important;
     background: #f2ce61 !important;
     height: 50px !important;
