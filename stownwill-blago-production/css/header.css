@@ -184,7 +184,7 @@ a {
    
 }
 .phone__number {
-    color: #f2ce61 important;
+    color: #f2ce61 ;
     font-size: 1.25rem;
 }
 .head_a_scroll {
@@ -200,7 +200,7 @@ a {
     transition: .5s;
 }
 .phone__number_scroll {
-    color: #000 !important;
+    color: #000 ;
 }
 .head_a_first-child_scroll {
     color: #000;
