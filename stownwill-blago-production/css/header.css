@@ -188,7 +188,7 @@ a {
     font-size: 1.25rem;
 }
 .head_a_scroll {
-    color: #000 !important;
+    color: #000;
     border-right: 1px solid silver;
 }
 .head_a_scroll:hover {
@@ -200,7 +200,7 @@ a {
     transition: .5s;
 }
 .phone__number_scroll {
-    color: #000;
+    color: #000 !important;
 }
 .head_a_first-child_scroll {
     color: #000;
