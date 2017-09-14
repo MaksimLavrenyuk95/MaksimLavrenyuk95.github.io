@@ -945,3 +945,7 @@ input {
     -o-transition: 7s;
     transition: 7s;
 }
+
+input[type=text], input[type=submit], textarea{
+	-webkit-appearance: none;
+} 
