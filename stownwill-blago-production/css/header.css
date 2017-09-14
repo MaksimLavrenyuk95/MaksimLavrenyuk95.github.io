@@ -199,7 +199,7 @@ a {
     -o-transition: .5s;
     transition: .5s;
 }
-.phone__number_scroll[href^=tel] {
+.phone__number_scroll {
     color: #000 !important;
 }
 .head_a_first-child_scroll {
