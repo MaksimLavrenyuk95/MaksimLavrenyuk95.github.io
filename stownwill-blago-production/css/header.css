@@ -184,7 +184,7 @@ a {
    
 }
 .phone__number {
-    color: #f2ce61;
+    color: #f2ce61 important;
     font-size: 1.25rem;
 }
 .head_a_scroll {
