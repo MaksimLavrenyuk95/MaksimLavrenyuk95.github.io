@@ -184,6 +184,7 @@ a {
    
 }
 .phone__number {
+	-webkit-appearance: none;
     color: #f2ce61 ;
     font-size: 1.25rem;
 }
@@ -200,6 +201,7 @@ a {
     transition: .5s;
 }
 .phone__number_scroll {
+	-webkit-appearance: none;
     color: #000 ;
 }
 .head_a_first-child_scroll {
