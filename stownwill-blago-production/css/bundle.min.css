@@ -1,10 +1,18 @@
 * {
     font-family: Open Sans;
     margin: 0;
+    text-shadow: none;
 }
 body {
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
     background-color: #fbfbfb;
+     position: relative;
+    -webkit-text-size-adjust: none;
+    text-shadow: none;
 }
+
 .screen-1 {
     height: 100vh;
     width: 100%;
