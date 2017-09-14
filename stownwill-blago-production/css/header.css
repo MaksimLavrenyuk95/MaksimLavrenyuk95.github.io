@@ -188,7 +188,7 @@ a {
     font-size: 1.25rem;
 }
 .head_a_scroll {
-    color: #000;
+    color: #000 !important;
     border-right: 1px solid silver;
 }
 .head_a_scroll:hover {
