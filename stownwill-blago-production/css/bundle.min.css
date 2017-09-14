@@ -573,10 +573,11 @@ input {
     outline: 0;
 }
 .submit {
-    margin-top: 70px;
-    background: #f2ce61;
-    height: 50px;
-    width: 100%;
+	
+    margin-top: 70px important;
+    background: #f2ce61 important;
+    height: 50px important;
+    width: 100% important;
     cursor: pointer;
     -webkit-transition: .4s;
     -o-transition: .4s;
