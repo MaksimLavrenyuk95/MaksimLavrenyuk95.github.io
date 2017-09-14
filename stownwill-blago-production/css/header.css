@@ -187,7 +187,7 @@ a {
     color: #f2ce61;
     font-size: 1.25rem;
 }
-.head_a_scroll[href^=tel] {
+.head_a_scroll {
     color: #000;
     border-right: 1px solid silver;
 }
@@ -199,7 +199,7 @@ a {
     -o-transition: .5s;
     transition: .5s;
 }
-.phone__number_scroll {
+.phone__number_scroll[href^=tel] {
     color: #000 !important;
 }
 .head_a_first-child_scroll {
