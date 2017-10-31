@@ -10,7 +10,7 @@ PartClockTwo.onclick = function() {
  }
 PartClockThree.onclick = function() {
 	TweenMax.to( $('#meterClock'), 1, {rotation:60, transformOrigin:"bottom center"}, "+=1");
-	document.getElementById("ClockNumber").textContent = "15%";
+	document.getElementById("ClockNumber").textContent = "75%";
 	
  }
 
