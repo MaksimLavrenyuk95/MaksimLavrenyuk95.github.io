@@ -1,14 +1,16 @@
- "use strict"
+TweenMax.to( $('#meterClock'), 1, {rotation:-73, transformOrigin:"bottom center"}, "+=1");
 PartClockOne.onclick = function() {
+	TweenMax.to( $('#meterClock'), 1, {rotation:-60, transformOrigin:"bottom center"}, "+=1");
 	document.getElementById("ClockNumber").textContent = "15%";
-	meterClock.style.transform = 'rotate(-60deg)';
+	
  }
 PartClockTwo.onclick = function() {
+	TweenMax.to( $('#meterClock'), 1, {rotation:0, transformOrigin:"bottom center"}, "+=1");
 	document.getElementById("ClockNumber").textContent = "50%";
-	meterClock.style.transform = 'rotate(0deg)';
  }
 PartClockThree.onclick = function() {
-	document.getElementById("ClockNumber").textContent = "75%";
-	meterClock.style.transform = 'rotate(60deg)';
+	TweenMax.to( $('#meterClock'), 1, {rotation:60, transformOrigin:"bottom center"}, "+=1");
+	document.getElementById("ClockNumber").textContent = "15%";
+	
  }
 
