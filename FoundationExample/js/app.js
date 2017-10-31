@@ -1,3 +1,4 @@
+ "use strict"
 PartClockOne.onclick = function() {
 	document.getElementById("ClockNumber").textContent = "15%";
 	meterClock.style.transform = 'rotate(-60deg)';
