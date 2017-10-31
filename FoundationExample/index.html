@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/bundle.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+  </head>
+  <body>
+    <div class="grid-container">
+     
+    <div class="block">
+      <div class="grid-x" >
+          <div class="medium-3 large-3 cell avatar-block">
+              <img class="avatar" src="/img/avatar.jpg" alt="аватар">
+          </div>
+          <div class="medium-9 large-9 cell contacts">
+              <div class="contacts__item">ИМЯ: Максим Лавренюк</div>
+              <div class="contacts__item">ДАТА РОЖДЕНИЯ: 03.02.1995</div>
+              <div class="contacts__item">ГОРОД: Рязань</div>
+              <div class="contacts__item">КОНТАКТНЫЕ ДАННЫЕ: maksim.lavrenyuk@outlook.com</div>
+              <img class="stamp" src="/img/stamp.png" alt="штамп">
+          </div>
+        </div>
+
+    </div>
+    <div class="block block-skills">
+      
+        <h1 class="block-skills__name"  class="cell">Навыки</h1>
+      
+        <div class="grid-x">
+            <div class="grid-y small-6 medium-6 large-3 cell grid-padding-x skills">
+              <div class=" cell  skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">html5</span>
+              </div>
+              <div class=" cell skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">css3</span>
+              </div>
+              <div class=" cell skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">БЭМ</span>
+              </div>
+            </div>
+            <div class="grid-y small-6 medium-6 large-3 cell grid-padding-x skills">
+              <div class="cell  skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">sass</span>
+              </div>
+              <div class=" cell skills-item">
+                <img src="/img/check-no.png" alt="check-yes">
+                <span class="skills-item__text">less</span>
+              </div>
+              <div class=" cell skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">gulp</span>
+              </div>
+            </div>
+            <div class="grid-y small-6 medium-6 large-3 cell grid-padding-x skills">
+              <div class=" cell  skills-item">
+                <img src="/img/check-no.png" alt="check-no">
+                <span class="skills-item__text">vanillajs</span>
+              </div>
+              <div class=" cell skills-item">
+                <img src="/img/check-no.png" alt="check-no">
+                <span class="skills-item__text">angular</span>
+              </div>
+              <div class="cell skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">jquery</span>
+              </div>
+            </div>
+            <div class="grid-y small-6 medium-6 large-3 cell grid-padding-x skills">
+              <div class=" cell  skills-item">
+                <img src="/img/check-no.png" alt="check-no">
+                <span class="skills-item__text">git</span>
+              </div>
+              <div class="cell skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">foundation</span>
+              </div>
+              <div class="cell skills-item">
+                <img src="/img/check-yes.png" alt="check-yes">
+                <span class="skills-item__text">boostrap</span>
+              </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="block block-3">
+      <div class="grid-x" >
+          <div class="small-12 medium-6 large-6 cell clock-block">
+              <svg class="meter">
+                <path id="PartClockOne" class="PartClockOne" fill-rule="evenodd"  fill="rgb(255, 200, 21)"
+                   d="M-0.012,127.900 C-0.012,87.412 19.246,51.401 49.164,28.260 L84.006,70.609 C65.348,85.249 55.578,102.557 55.578,127.900 L-0.012,127.900 Z"/>
+                <path id="PartClockTwo" class="PartClockTwo" fill-rule="evenodd"  fill="rgb(163, 205, 59)"
+                  d="M55.124,23.961 C75.704,9.497 100.862,0.961 128.036,0.961 C155.249,0.961 180.405,9.497 200.941,23.961 L166.423,67.001 C151.739,57.084 140.126,54.797 128.036,54.797 C115.980,54.797 101.848,59.155 89.684,67.001 L55.124,23.961 Z"/>
+                <path id="PartClockThree" class="PartClockThree" fill-rule="evenodd"  fill="rgb(0, 147, 215)"
+                  d="M205.248,28.260 C234.366,51.401 253.040,87.412 253.040,127.900 L199.053,127.900 C199.053,102.557 188.656,84.503 171.567,70.609 L205.248,28.260 Z"/>
+                <polygon id="meterClock" class="meter-clock" points="120,125 130,70 140,125"></polygon>
+                <circle class="meter-circle" r="10" cx="130" cy="125"></circle>
+              </svg>
+
+          </div>
+          <div class=" small-12 medium-6 large-6 cell   
+          clock-face">
+              <div class="clock-face__text">
+                Мой уровень владения Java Script
+              </div>
+              <span id="ClockNumber" class="clock-face__number">12%</span>
+          </div>
+        </div>
+
+    </div>
+      
+      
+
+
+    <script type="text/javascript">
+      
+
+    </script>
+    
+    <script src="js/app.js"></script>
+  </body>
+</html>
