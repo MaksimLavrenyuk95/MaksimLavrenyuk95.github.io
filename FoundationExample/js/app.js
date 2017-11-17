@@ -1,4 +1,4 @@
-use strict 
+"use strict";
 var s = document.forms.Sum,
     d = s.querySelectorAll('input[type="checkbox"]:not([value]), input[type="checkbox"][value=""]');
   for (var i = 0; i < d.length; i++) // чтобы не было написано NaN, убираем в disabled пункты, где не прописаны значения
