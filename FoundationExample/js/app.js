@@ -4,7 +4,7 @@ var s = document.forms.Sum,
   for (var i = 0; i < d.length; i++) // чтобы не было написано NaN, убираем в disabled пункты, где не прописаны значения
     d[i].disabled = true;
 		$(document).ready(function() {
-			TweenMax.to( $('#meterClock'), 1, {rotation:45, transformOrigin:"right center"});
+			TweenMax.to( $('#meterClock'), 1, {rotation:81, transformOrigin:"right center"});
  		});
 
 			$('input[type="checkbox"]').click(function(){
