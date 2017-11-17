@@ -27,10 +27,10 @@ body {
 		&__item:nth-child(2),
 		&__item:nth-child(3),
 		&__item:nth-child(4) {margin-top: 26px;}
-		
+
 		&__item {
-			padding-top: 2px; 
-			min-height: 29px; 
+			padding-top: 2px;
+			min-height: 29px;
 			border-bottom: 2px solid rgb(54, 54, 54);
 			font-size: 0.75rem;
 		}
@@ -57,7 +57,7 @@ h1 {
 
 	&__name {
 	margin-left: 20px;
-	margin-bottom: 17px;
+	margin-bottom: 18px;
 	}
 }
 
@@ -68,16 +68,16 @@ h1 {
 	&__text {
 		letter-spacing: 0.0625em;
 		font-weight: bold;
-		margin-left: 4px;
 		line-height: 1.834;
 		text-transform: uppercase;
 		font-size: 0.75rem;
+		color: rgb(102, 102, 102);
 	}
 	&:nth-child(2) {
-	margin-top: 35px;
+	margin-top: 37px;
 	}
 	&:nth-child(3) {
-	margin-top: 35px;
+	margin-top: 37px;
 	}
 }
 .block-3 {
@@ -89,7 +89,7 @@ h1 {
 	font-family: "Roboto";
 
 		&__text {
-			
+
 			line-height: 1.35;
 			letter-spacing: 0.015rem;
 			width: 220px;
@@ -105,7 +105,7 @@ h1 {
 		}
 }
 .clock-block {
-	height: 180px;	
+	height: 180px;
 	padding-top: 35px;
 }
 .clock {
@@ -117,6 +117,7 @@ h1 {
 	left: 32.5%;
 	bottom: -6px;
 }
+/*
 .PartClockOne,
 .PartClockTwo,
 .PartClockThree, {
@@ -135,16 +136,39 @@ h1 {
 .PartClockThree:hover {
 	fill: #0084c1;
 }
-.meter-clock { 
-	transform: rotate(-73deg);
-	transition: 0.4s;
-    transform-origin: bottom center;
-  	fill: black;
-}
+*/
 .meter-circle {
   	fill: black;
 }
+input[type="checkbox"] {
+		display:none;
+}
+input[type="checkbox"] + label span {
+		display:inline-block;
+		width:19px;
+		height:19px;
+		margin:1px 8px 0 0;
+		vertical-align:middle;
+		background:url(/img/check-no.png) left top no-repeat;
+		cursor:pointer;
+}
 
+input[type="checkbox"]:checked + label span {
+		background:url(/img/check-yes.png)  top no-repeat;
+}
+.grid-padding-x > .cell {
+	padding-right: 0.9375rem;
+	padding-left: 1.25rem;
+}
+.grid-padding-x:nth-child(2) > .cell {
+	padding-left: 1rem;
+}
+.grid-padding-x:nth-child(3) > .cell {
+	padding-left: 0.625rem;
+}
+.grid-padding-x:nth-child(4) > .cell {
+	padding-left: 0.375rem;
+}
 
 @media print, screen and (max-width: 64em) {
 	.avatar-block {
@@ -179,12 +203,23 @@ h1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+			&__text {
+				width: auto;
+			}
 	}
-	
+
 	.block-skills {
 		padding-right: 20px;
 	}
-
+	.grid-padding-x:nth-child(2) > .cell {
+		padding-left: 1.25rem;
+	}
+	.grid-padding-x:nth-child(3) > .cell {
+		padding-left: 1.25rem;
+	}
+	.grid-padding-x:nth-child(4) > .cell {
+		padding-left: 1.25rem;
+	}
 }
 
 @media print, screen and (max-width: 40em) {
@@ -206,12 +241,7 @@ h1 {
 		}
 	}
 }
-.grid-padding-x > .cell {
-	padding-right: 0.9375rem;
-	padding-left: 1.25rem; 
-}
 .grid-container {
   padding-top: 60px;
   max-width: 690px;
  }
- 
