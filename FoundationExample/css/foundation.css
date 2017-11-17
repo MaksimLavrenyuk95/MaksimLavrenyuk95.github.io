@@ -883,18 +883,7 @@ textarea[readonly] {
 input[type='search'] {
   box-sizing: border-box; }
 
-[type='file'],
-[type='checkbox'],
-[type='radio'] {
-  margin: 0 0 1rem; }
 
-[type='checkbox'] + label,
-[type='radio'] + label {
-  display: inline-block;
-  vertical-align: baseline;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
-  margin-bottom: 0; }
   [type='checkbox'] + label[for],
   [type='radio'] + label[for] {
     cursor: pointer; }
