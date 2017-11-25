@@ -12,6 +12,7 @@
     @import url('https://fonts.googleapis.com/css?family=PT+Sans');
     </style>
     <link rel="stylesheet" href="css/bundle.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
     
 
 
@@ -32,22 +33,24 @@
     <header class="header">
       <nav class="header__content">
         <ul>
-          <li><a href="">главная</a></li>
-          <li><a href="">каталог</a></li>
-          <li><a href="">видео</a></li>
-          <li><a href="">скидка 40%</a></li>
-          <li><a href="">ответы на вопросы</a></li>
+          <li><a href="#glavnaya">главная</a></li>
+          <li><a href="#catalog">каталог</a></li>
+          <li><a href="#video">видео</a></li>
+          <li><a href="#skidka">скидка 40%</a></li>
+          <li><a href="#otveti">ответы на вопросы</a></li>
         </ul>
       </nav>
     </header>
-    <div class="whiteLine">
+    <div class="container">
+    <a name="glavnaya"></a>
+    <div  class="whiteLine whiteLine-margin-top">
       <div class="whiteLine-content">
         <img src="img/logo.png" alt="ГлавМех" class="logo">
-        <a class="Feedback-button Feedback-button_small" href="">заказать обратный звонок</a>
+        <a class="Feedback-button Feedback-button_small show_popup" rel="reg_form" href="">заказать обратный звонок</a>
       </div>
     </div>
     <div class="snow-block snow-block_main">
-      <h1 class="h1-big h1-middle h1-small">МЕХОВЫЕ АВТОНАКИДКИ</h1>
+      <h1 class="h1-big h1-middle h1-small"><a name="#glavnaya"></a>МЕХОВЫЕ АВТОНАКИДКИ</h1>
       <h1 class="h1-big h1-middle h1-small">ИЗ 100% НАТУРАЛЬНОЙ ОВЕЧЬЕЙ ШЕРСТИ</h1>
       <h2 class="h2-big h2-middle h2-small">ДОСТАВКА ОТ 1 ДНЯ ПО ВСЕЙ РОССИИ. ОПЛАТА ПРИ ПОЛУЧЕНИИ</h2>
       <h2 class="h2-big h2-middle h2-small">СВОЕ ПРОИЗВОДСТВО. ОПТОМ И В РОЗНИЦУ</h2>
@@ -56,7 +59,7 @@
         <div class="list-block">
           <div class="list-h">При заказе от 2х шт. дарим <strong>ПОДАРОК!</strong></div>
           <div class="list-itm">
-            <a href="#" class="list-itm-avatar">
+            <a href="img/ChinaIpodShuffle.jpg" class="list-itm-avatar galery-popap">
               <img class="list-itm-photo" src="img/ChinaIpodShuffle-min.png" alt="айпод">
             </a>
             <div class="list-itm-name">
@@ -64,7 +67,7 @@
             </div>
           </div>
           <div class="list-itm">
-            <a href="#" class="list-itm-avatar list-itm-avatar-2">
+            <a href="img/podushka-gift.jpg" class="list-itm-avatar list-itm-avatar-2 galery-popap">
               
             </a>
             <div class="list-itm-name">
@@ -72,7 +75,7 @@
             </div>
           </div>
           <div class="list-itm">
-            <a href="#" class="list-itm-avatar list-itm-avatar-3">
+            <a href="img/rul-gift.jpg" class="list-itm-avatar list-itm-avatar-3 galery-popap">
               
             </a>
             <div class="list-itm-name">
@@ -90,7 +93,7 @@
            <span><span class="red-price">2790 руб.</span>- за 2 шт.!</span>
             <img src="img/sale.png" alt="" class="sale">
           </div>
-          <a class="Feedback-button Feedback-button_middle" href="">заказать с подарком!</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_middle show_popup" href="">заказать с подарком!</a>
         </div>
       </div>
       
@@ -111,12 +114,13 @@
         </div>
       </div>
     </div>
-    <div class="snow-block snow-block_goods">
+    <a name="catalog"></a>
+    <div  class="snow-block snow-block_goods">
       <h1 class="h1-big h1-middle h1-small">Самые популярные накидки</h1>
       <div class="goods-grid">
         <!--1 itm-->
         <div class="goods-grid__itm goods-grid__itm_mex">
-          <a href="#" class="itm__photo"><img src="img/white1.jpg" alt="одно кресло"></a>
+          <a href="img/white1.jpg" class="itm__photo galery-popap"><img src="img/white1.jpg" alt="одно кресло"></a>
           <h1 class="itm__name">МЕХОВАЯ НАКИДКА</h1>
           <h2 class="itm__number">1 шт. белая</h2>
           <ul class="features">
@@ -127,11 +131,11 @@
           </ul>
           <span class="grey-price">2690 р.</span>
           <span class="red-price">1390р.</span>
-          <a class="Feedback-button Feedback-button_big" href="">заказать</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_big show_popup" href="">заказать</a>
         </div>
         <!--2 itm-->
         <div class="goods-grid__itm goods-grid__itm_mex">
-          <a href="#" class="itm__photo"><img src="img/black1.png" alt="одно кресло"></a>
+          <a href="img/black1.png" class="itm__photo galery-popap"><img src="img/black1.png" alt="одно кресло"></a>
           <h1 class="itm__name">МЕХОВАЯ НАКИДКА</h1>
           <h2 class="itm__number">1 шт. черная</h2>
           <ul class="features">
@@ -142,11 +146,11 @@
           </ul>
           <span class="grey-price">2690 р.</span>
           <span class="red-price">1390 р.</span>
-          <a class="Feedback-button Feedback-button_big" href="">заказать</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_big show_popup" href="">заказать</a>
         </div>
         <!--3 itm-->
         <div class="goods-grid__itm goods-grid__itm_mex">
-          <a href="#" class="itm__photo"><img src="img/white2.png" alt="два кресла"></a>
+          <a href="img/white2.png" class="itm__photo galery-popap"><img src="img/white2.png" alt="два кресла"></a>
           <h1 class="itm__name">МЕХОВЫЕ НАКИДКИ</h1>
           <h2 class="itm__number">2 шт. белые</h2>
           <ul class="features">
@@ -157,11 +161,11 @@
           </ul>
           <span class="grey-price">5690 р.</span>
           <span class="red-price">2790 р.</span>
-          <a class="Feedback-button Feedback-button_big Feedback-button_longspan" href="">заказать с подарком!</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_big Feedback-button_longspan show_popup" href="">заказать с подарком!</a>
         </div>
         <!--4 itm-->
         <div class="goods-grid__itm goods-grid__itm_mex">
-          <a href="#" class="itm__photo"><img src="img/black2.png" alt="два кресла"></a>
+          <a href="img/black2.png" class="itm__photo galery-popap"><img src="img/black2.png" alt="два кресла"></a>
           <h1 class="itm__name">МЕХОВЫЕ НАКИДКИ</h1>
           <h2 class="itm__number">2 шт. черные</h2>
           <ul class="features">
@@ -172,11 +176,11 @@
           </ul>
           <span class="grey-price">5690 р.</span>
           <span class="red-price">2790 р.</span>
-          <a class="Feedback-button Feedback-button_big Feedback-button_longspan" href="">заказать с подарком!</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_big Feedback-button_longspan show_popup" href="">заказать с подарком!</a>
         </div>
         <!--5 itm-->
         <div class="goods-grid__itm goods-grid__itm_mex">
-          <a href="#" class="itm__photo"><img src="img/white4.png" alt="комплект"></a>
+          <a href="img/white4.png" class="itm__photo galery-popap"><img src="img/white4.png" alt="комплект"></a>
           <h1 class="itm__name">МЕХОВОЙ КОМПЛЕКТ</h1>
           <h2 class="itm__number">5 шт. белые</h2>
           <ul class="features">
@@ -188,12 +192,12 @@
           </ul>
           <span class="grey-price">8900 руб.</span>
           <span class="red-price">5290 руб.</span>
-          <a class="Feedback-button Feedback-button_big Feedback-button_longspan" href="">заказать с подарком!</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_big Feedback-button_longspan show_popup" href="">заказать с подарком!</a>
         </div>
         <!--6 itm-->
         <div class="goods-grid__itm goods-grid__itm_mex">
 
-          <a href="#" class="itm__photo"><img src="img/black4.png" alt="комплект"></a>
+          <a href="img/black4.png" class="itm__photo galery-popap"><img src="img/black4.png" alt="комплект"></a>
           <h1 class="itm__name">МЕХОВОЙ КОМПЛЕКТ</h1>
           <h2 class="itm__number">5 шт. черные</h2>
           <ul class="features">
@@ -205,29 +209,30 @@
           </ul>
           <span class="grey-price">8900 руб.</span>
           <span class="red-price">5290 руб.</span>
-          <a class="Feedback-button Feedback-button_big Feedback-button_longspan" href="">заказать с подарком!</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_big Feedback-button_longspan show_popup" href="">заказать с подарком!</a>
         </div>
       </div>
     </div>
-    <div class="whiteLine">
+    <a name="video"></a>
+    <div  class="whiteLine">
       <div class="whiteLine-headers">
         <h1 class="h1-big h1-middle h1-small">Выполненные работы</h1>
       <h2 class="h2-big h2-middle h2-small">Фотографии салонов довольных клиентов. Оцените как здорово выглядят</h2>
       </div>
     </div>
     <div class="galery">
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
-      <a href="#" class="galery__itm"></a>
+      <a href="img/galery/galery-1.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-2.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-3.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-4.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-5.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-6.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-7.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-8.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-9.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-10.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-11.jpg" class="galery__itm galery-popap"></a>
+      <a href="img/galery/galery-12.jpg" class="galery__itm galery-popap"></a>
     </div>
     <div class="garantiyaBlock">
       <div class="garantiyaBlock-content">
@@ -282,6 +287,7 @@
         </div>
       </div>
     </div>
+    <a name="video" href=""></a>
     <div class="videosBlock">
       <h1 class="h1-big h1-middle h1-small">Посмотрите видео наших клиентов</h1>
       <div class="videos">
@@ -376,7 +382,7 @@
            
             или звоните нам сами 
            </p>
-           <a class="Feedback-button Feedback-button_small" href="">Оставить заявку</a>
+           <a rel="reg_form" class="Feedback-button Feedback-button_small show_popup" href="">Оставить заявку</a>
         </div>
         <img class="arrow" src="img/arrow1.png">
         <!--2 шаг-->
@@ -419,8 +425,8 @@
         </div>
       </div>
     </div>
-
-    <div class="snow-block snow-block_main">
+    <a name="skidka" href=""></a>
+    <div  class="snow-block snow-block_main">
       <h1 class="gift-act-h1 h1-big h1-middle h1-small">Купите накидки по выгодной цене <br>
       с ПОДАРКОМ!</h1>
       
@@ -436,7 +442,7 @@
            <span><span class="red-price">2790 руб.</span>- за 2 шт.!</span>
             <img src="img/sale.png" alt="" class="sale">
           </div>
-          <a class="Feedback-button Feedback-button_middle" href="">заказать с подарком!</a>
+          <a rel="reg_form" class="Feedback-button Feedback-button_middle show_popup" href="">заказать с подарком!</a>
         </div>
       </div>
       
@@ -510,8 +516,8 @@
         </div>
       </div>
     </div>
-    
-    <div class="reviewsBlock">
+    <a name="otveti" href=""></a>
+    <div  class="reviewsBlock">
       <h1 class="h1-big h1-middle h1-small">У Вас есть вопрос? У нас есть ответ!</h1>
       <div class="reviews-items">
         <!--1 item-->
@@ -580,12 +586,62 @@
       <div class="whiteLine-content">
         <img src="img/logo.png" alt="ГлавМех" class="logo">
         <span>© glav-mex.ru, 2010-2017</span>
-        <a class="Feedback-button Feedback-button_small" href="">заказать обратный звонок</a>
+        <a rel="reg_form" class="Feedback-button Feedback-button_small show_popup" href="">заказать обратный звонок</a>
       </div>
+
+    </div>
     <!--подключение jquery--> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--зумирование картинки в галерее-->
     
-  </body>
 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+      <script type="text/javascript" src="js/jquery.easing-1.4.pack.js"></script>
+      <script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+
+      <script type="text/javascript">
+  jQuery(document).ready(function() {
+    jQuery(".galery-popap").fancybox();
+  });
+</script>
+
+      <div class="popup reg_form">
+        <a class="close" href="#">закрыть</a>
+        <h1>Заказать звонок</h1>
+        <p>
+          Заполните форму и мы <br>
+          Вам 
+          перезвоним для оформления заказа!
+        </p>
+        <form class="form"  method="post" action="">
+          <input type="text" name="name" placeholder="Ваше имя" required>
+          <input type="tel" name="phone" placeholder="Телефон" required>
+          <button type="submit">Заказать звонок</button>
+        </form>
+        <span>Мы не передаем данные третьим лицам</span>
+      </div>
+
+
+      <script type="text/javascript">
+        $(function () {
+  //script for popups
+  $('a.show_popup').click(function () {
+    $('div.'+$(this).attr("rel")).fadeIn(500);
+    $("body").append("<div id='overlay'></div>");
+    $('#overlay').show().css({'filter' : 'alpha(opacity=80)'});
+    return false;       
+  }); 
+  $('a.close').click(function () {
+    $(this).parent().fadeOut(100);
+    $('#overlay').remove('#overlay');
+    return false;
+  });
+  
+  
+});
+      </script>
+
+  </body>
+  
 </html>
