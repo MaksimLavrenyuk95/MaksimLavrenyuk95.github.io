@@ -278,40 +278,40 @@ button, input[type=button] {
     .galery__itm {
     width: 100%}
 }.galery__itm:nth-child(1) {
-    background-image: url(img/galery/galery-min/galery-1-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-1-min.jpg);
 }
 .galery__itm:nth-child(2) {
-    background-image: url(img/galery/galery-min/galery-2-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-2-min.jpg);
 }
 .galery__itm:nth-child(3) {
-    background-image: url(img/galery/galery-min/galery-3-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-3-min.jpg);
 }
 .galery__itm:nth-child(4) {
-    background-image: url(img/galery/galery-min/galery-4-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-4-min.jpg);
 }
 .galery__itm:nth-child(5) {
-    background-image: url(img/galery/galery-min/galery-5-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-5-min.jpg);
 }
 .galery__itm:nth-child(6) {
-    background-image: url(img/galery/galery-min/galery-6-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-6-min.jpg);
 }
 .galery__itm:nth-child(7) {
-    background-image: url(img/galery/galery-min/galery-7-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-7-min.jpg);
 }
 .galery__itm:nth-child(8) {
-    background-image: url(img/galery/galery-min/galery-8-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-8-min.jpg);
 }
 .galery__itm:nth-child(9) {
-    background-image: url(img/galery/galery-min/galery-9-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-9-min.jpg);
 }
 .galery__itm:nth-child(10) {
-    background-image: url(img/galery/galery-min/galery-10-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-10-min.jpg);
 }
 .galery__itm:nth-child(11) {
-    background-image: url(img/galery/galery-min/galery-11-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-11-min.jpg);
 }
 .galery__itm:nth-child(12) {
-    background-image: url(img/galery/galery-min/galery-12-min.jpg);
+    background-image: url(../img/galery/galery-min/galery-12-min.jpg);
 }
 .h1-big {
     font-size: 2.5rem;
@@ -437,7 +437,7 @@ body {
 }
 .snow-block {
     width: 100%;
-    background-image: url(img/snow-fon.jpg);
+    background-image: url(../img/snow-fon.jpg);
     padding: 40px 20px 20px 20px;
     background-repeat: repeat;
     text-align: center;
@@ -501,10 +501,10 @@ body {
     -webkit-border-radius: 50%;
     border-radius: 50%}
 .offer .list-itm .list-itm-avatar-2 {
-    background-image: url(img/podushka-gift-min.png);
+    background-image: url(../img/podushka-gift-min.png);
 }
 .offer .list-itm .list-itm-avatar-3 {
-    background-image: url(img/rul-gift-min.png);
+    background-image: url(../img/rul-gift-min.png);
 }
 .offer .list-itm .list-itm-name {
     width: 110px;
@@ -914,7 +914,7 @@ body {
     width: 100%;
     padding: 40px 20px;
     text-align: center;
-    background-image: url(img/fon.png);
+    background-image: url(../img/fon.png);
 }
 .reviewsBlock h1 {
     color: #014f9a;
@@ -1226,7 +1226,7 @@ body {
     min-height: 700px;
     -webkit-background-size: cover;
     background-size: cover;
-    background-image: url(img/lisogorkazakat2_1_.jpg);
+    background-image: url(../img/lisogorkazakat2_1_.jpg);
 }
 .place-productionBlock h1 {
     color: #fff;
