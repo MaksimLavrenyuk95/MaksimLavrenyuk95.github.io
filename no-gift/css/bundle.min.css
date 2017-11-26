@@ -188,9 +188,9 @@ button, input[type=button] {
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
+    -webkit-justify-content: space-around;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     -webkit-align-content: space-around;
     -ms-flex-line-pack: distribute;
     align-content: space-around;
@@ -473,6 +473,7 @@ body {
     padding: 0 20px 0 60px;
 }
 .offer .off-seet {
+    width: 40%;
     height: 640px;
 }
 .offer .list-itm {
@@ -1105,8 +1106,9 @@ body {
     z-index: 100;
     width: 430px;
     position: absolute;
-    left: 40%}
+    left: 30%}
 .seet-gift {
+    width: 50%;
     position: relative;
     left: -50px;
 }
@@ -1330,7 +1332,7 @@ body {
     z-index: 1000;
     opacity: .8;
 }
-@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+@media only screen and (min-device-width:320px) and (max-width:768px)  {
     .header {
     height: 200px;
     position: relative;
@@ -1519,7 +1521,7 @@ body {
     left: -150px;
 }
 .offer-order {
-    max-width: 100%}
+    max-width: 70%}
 .causesBlock-headerText span {
     font-size: 20px;
 }
