@@ -1330,7 +1330,7 @@ body {
     z-index: 1000;
     opacity: .8;
 }
-@media only screen and (min-device-width:320px)  {
+@media only screen and (min-device-width:320px) and (max-width:768px)  {
     .header {
     height: 200px;
     position: relative;
