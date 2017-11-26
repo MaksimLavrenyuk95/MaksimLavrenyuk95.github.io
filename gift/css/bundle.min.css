@@ -190,7 +190,7 @@ button, input[type=button] {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-around;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     -webkit-align-content: space-around;
     -ms-flex-line-pack: distribute;
     align-content: space-around;
