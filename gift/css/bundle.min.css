@@ -188,7 +188,7 @@ button, input[type=button] {
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
+    -webkit-justify-content: space-around;
     -ms-flex-pack: justify;
     justify-content: space-between;
     -webkit-align-content: space-around;
