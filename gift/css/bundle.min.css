@@ -1106,8 +1106,9 @@ body {
     z-index: 100;
     width: 430px;
     position: absolute;
-    left: 40%}
+    left: 30%}
 .seet-gift {
+    width: 50%;
     position: relative;
     left: -50px;
 }
