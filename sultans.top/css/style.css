@@ -543,8 +543,8 @@ nav li a:hover {
 }
 
 .novelty-left {
-	width: 60%;
-	max-width: 640px;
+	width: 90%;
+	
 	float: left;
 	overflow: hidden;
 }
@@ -611,10 +611,7 @@ background-size: 100px;}
 }
 
 .novelty-right {
-	width: 40%;
-	max-width: 439px;
-	height: 412px;
-	float: right;
+	
 }
 
 .novelty-right a {
