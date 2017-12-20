@@ -824,11 +824,12 @@ div.select-logo {
 
 .catalog .bx-wrapper .bx-pager{display: none;}
 
-.catalog .slide>a {
+.catalog .slide>.catalog-content {
 	border-right: 1px solid #9d9d9d;
 	border-left: 1px solid #9d9d9d;
 	display: block;
 	margin-bottom: 35px;
+	box-sizing: border-box;
 }
 
 .catalog h3 {
@@ -872,7 +873,7 @@ div.select-logo {
 .catalog aside {
 	background: #f1f1f1 url(../img/catalog-bottom-bg.png) center top no-repeat;
 	color: #463f3f;
-	padding: 10px 5%;
+	padding: 10px 5% 10px;
 }
 
 .catalog h5 {
@@ -1371,6 +1372,32 @@ footer div {
 .partners-block__img {
 	margin: auto;
 	width: 50%;
+}
+.catalog-button {
+	display: block;
+	width: 204px;
+	
+	
+
+
+    background-color: #e9cb5d;
+   
+    background: -moz-linear-gradient(bottom, #E4BE45 0%, #F2DE7E 100%);
+    background: -o-linear-gradient(bottom, #E4BE45 0%, #F2DE7E 100%);
+    background: -webkit-linear-gradient(bottom, #E4BE45 0%, #F2DE7E 100%);
+    background: linear-gradient(bottom, #E4BE45 0%, #F2DE7E 100%);
+    color: #463f3f;
+  
+    font-size: 14px;
+    font-family: "Lato-Medium";
+    
+    margin-right: 0;
+    margin-left: 0;
+    padding: 5px;
+    text-shadow: 0 0 27px rgba(255,255,190,.75);
+    text-align: center;
+    box-sizing: border-box;
+
 }
 @media only screen and (max-width: 1380px) {
 	.nav-wrapper {
