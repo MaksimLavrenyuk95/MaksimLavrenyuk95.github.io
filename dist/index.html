@@ -4,8 +4,10 @@
 <head>
     <title>Лавренюк.Создание сайта</title>
     <meta charset="utf-8">
+     <meta name="description" content="Создание сайта под ключ. Верстка, программирование, создание макета" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main-page.min.css">
     <script src="libs/jquery-3.3.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
 </head>
@@ -65,32 +67,7 @@
     </script>
     <script src="js/main.min.js"></script>
     <script src="js/main.ripple-effect.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-
-        $("#form").submit(function() {
-            $.ajax({
-                beforeSend: function() {
-                     $("#send").css("background-color", "#63d4fb");
-                    var text = $("#send").html("");
-                    $('<img src="img/preloader.svg" alt="">').appendTo($("#send"));
-                },
-                type: "POST",
-                url: "feedback-form.php",
-                data: $(this).serialize()
-            }).done(function() {
-                $(this).find("input").val("");
-                $("#send").css("background-color", "#76D386");
-                $('#send').html("Отправлено");
-                $('#send').prop('disabled', true);
-                $("#send").css("cursor", "default");
-
-            });
-            return false;
-        });
-
-    });
-    </script>
+    
 </body>
 
 </html>
