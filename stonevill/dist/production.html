@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Продукция</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/production.min.css">
+    <link rel="shortcut icon" href="img/logo-ico.ico" type="image/x-icon">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+    </style>
+    <noindex>
+        <style type="text/css">
+        #hellopreloader>p {
+            display: none;
+        }
+
+        #hellopreloader_preload {
+            display: block;
+            position: fixed;
+            z-index: 99999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #3498DB url(http://hello-site.ru//main/images/preloads/tail-spin.svg) center center no-repeat;
+            background-size: 41px;
+        }
+        </style>
+        <div id="hellopreloader">
+            <div id="hellopreloader_preload"></div>
+            <p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p>
+        </div>
+        <script type="text/javascript">
+        var hellopreloader = document.getElementById("hellopreloader_preload");
+
+        function fadeOutnojquery(el) {
+            el.style.opacity = 1;
+            var interhellopreloader = setInterval(function() {
+                el.style.opacity = el.style.opacity - 0.05;
+                if (el.style.opacity <= 0.05) {
+                    clearInterval(interhellopreloader);
+                    hellopreloader.style.display = "none";
+                }
+            }, 16);
+        }
+        window.onload = function() { setTimeout(function() { fadeOutnojquery(hellopreloader); }, 0); };
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/header.min.css">
+        <link rel="stylesheet" href="css/footer.min.css">
+        <link rel="stylesheet" href="css/demo.min.css">
+        <link rel="stylesheet" href="css/jquery.mmenu.all.min.css">
+    </noindex>
+</head>
+
+<body>
+    <!--Блок с Хедером-->
+    <div class="header">
+        <a class="head-button" href="#menu"><span></span></a>
+        <div class="header__logo">
+            <img class="logo" src="img/dcc423_6492ed173a064676b53ed0d78270ba07.jpg">
+        </div>
+        <div class="header-menu">
+            <ul class="link-list">
+                <li class="link-itm">
+                    <a href="index.html" style="border-left: 1px solid silver;" class="head_a">
+                        <div class="link">Главная</div>
+                    </a>
+                </li>
+                <li class="link-itm"><a href="production.html" class="head_a"><div class="link"">Продукция</div></a>
+                </li>
+                <li class="link-itm">
+                    <a href="katrina.html" class="head_a">
+                        <div class="link">Забор КАТРИНА</div>
+                    </a>
+                </li>
+                <li><a href="zabor.html" class="head_a">Каталог заборов</a></li>
+                <li class="link-itm"><a href="contacts.html" class="head_a">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__phone">
+            <span class="phone__number">+7(961)-130-88-00</span>
+            <span class="phone__number">+7(910)-570-85-75</span>
+        </div>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="production.html">Продукция</a>
+            </li>
+            <li><a href="katrina.html">Забор КАТРИНА</a>
+            </li>
+            <li><a href="zabor.html">Каталог заборов</a></li>
+            <li><a href="contacts.html">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Конец блока с хедером-->
+    <!--Почему выбирают нас Начало-->
+    <div class="production-why-block">
+        <!--полоска с заголовком-->
+        <div class="content" style="margin-bottom: 70px;">
+            <h1 class="prod-section" style="color: black;
+  font-family: Open Sans Condensed,sans-serif; margin-bottom: 0px;">Почему выбирают нас?</h1>
+            <!--полоска с заголовком. Конец-->
+            <div class="production-why-block__content">
+                <!--начало блоков-->
+                <div class="content content_why-block">
+                    <!--блок №1-->
+                    <div class="why-block-itm itm-block">
+                        <img class="why-block-itm__img" src="img/why-block-itm__img-1.jpg">
+                        <h1>Опыт</h1>
+                        <p class="why-block-itm__text">
+                            Наши специалисты имеют солидный опыт работы и прошли профильное обучение у германских специалистов. Наш завод полностью оснащен оборудованием марки HESS, работу <span class="feature">которого контролируют специалисты из Европы.</span>
+                        </p>
+                        <!--блок №2-->
+                    </div>
+                    <div class="why-block-itm itm-block">
+                        <img class="why-block-itm__img" src="img/why-block-itm__img-2.jpg">
+                        <h1>Качество</h1>
+                        <p class="why-block-itm__text">
+                            Особое внимание мы уделяем качеству работы и следим за соблюдением соответствующих СНиПов и ГОСТов. Мы производим отличную плитку на лучшем немецком оборудовании.
+                        </p>
+                    </div>
+                    <!--блок №3-->
+                    <div class="why-block-itm itm-block">
+                        <img class="why-block-itm__img" src="img/why-block-itm__img-3.jpg">
+                        <h1>Подход</h1>
+                        <p class="why-block-itm__text">
+                            Мы практикуем индивидуальный подход к каждому из наших клиентов. Всегда готовы пойти на встречу пожеланиям Заказчика.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Конец блоков-->
+        <!--Товары-->
+        <!--Тротуарная плитка-->
+        <div class="content items-prod">
+            <a name="trotuarnaya-plitka"><h1 class="prod-section">Тротуарная плитка</h1></a>
+            <!--блок №1-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/kirpich40mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Кирпичик" 40 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 200х100х40 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 1,3 кг
+                        <br> Марка: ЭДД 1.3
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/о.jpg">
+                <div class="prod-itm-price prod-itm-price_color-blue">
+                    <span>389 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №2-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/kirpich50mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Кирпичик" 50 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 200х100х50 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 2,2 кг
+                        <br> Марка: ЭДД 1.5
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/dcc423_ffcc73f561d04fb389f8e05d5bd98d18.jpg">
+                <div class="prod-itm-price prod-itm-price_color-purple">
+                    <span>452 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №3-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/kirpich60mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Кирпичик" 60 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 200х100х60 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 2,64 кг
+                        <br> Марка: ЭДД 1.6
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/kirpich60mm.jpg">
+                <div class="prod-itm-price prod-itm-price_color-sand">
+                    <span>515 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №4-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/kirpich80mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Кирпичик" 80 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 200х100х80 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 3,52 кг
+                        <br> Марка: ЭДД 1.8
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/kirpich80mm.jpg">
+                <div class="prod-itm-price prod-itm-price_color-blue">
+                    <span>620 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №5-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/katushka80mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Катушка" 80 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 200х165х80 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 5,42 кг
+                        <br> Марка: ЭДД 2,8
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/katushka80mm.jpg">
+                <div class="prod-itm-price prod-itm-price_color-purple">
+                    <span>609 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №6-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/katushka100mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Катушка" 100 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 200х165х100 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 6,20 кг
+                        <br> Марка: ЭДД 2,1
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/katushka100mm.jpg">
+                <div class="prod-itm-price prod-itm-price_color-sand">
+                    <span>670 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №7-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/slanec60mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Сланец" 60 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 200х200х60 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 5,28 кг
+                        <br> Марка: ЭДД 2,6
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/slanec60mm.jpg">
+                <div class="prod-itm-price prod-itm-price_color-blue">
+                    <span>784 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №8-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/golivud30mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Тротуарная плитка "Голливуд" 30 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 300х300х30 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 5,28 кг
+                        <br> Марка: ЭДД 2.3
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/golivud30mm.jpg">
+                <div class="prod-itm-price prod-itm-price_color-purple">
+                    <span>399 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <!--блок №9-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/niviygorod60mm_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Брусчатка "Новый город" 60 мм</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: различные
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: -/-
+                        <br> Марка: ЭДД 2,3
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/niviygorod60mm.jpg">
+                <div class="prod-itm-price prod-itm-price_color-sand">
+                    <span>784 руб/м <sup>2</sup></span>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/0B6ocCovYLDnKNF9SeXI5eDZZVFE/view" target="_blank" data-type="document" style="width: 100%;  margin-top: 50px; margin-bottom: 50px;">
+                <div class="question-button">Прайс-лист</div>
+            </a>
+            <!--конец блоков-->
+            <!--Конец тротуарной плитки-->
+        </div>
+        <!--Бордюры-->
+        <div class="content items-prod">
+            <a name="borders"><h1 class="prod-section">Бордюры</h1></a>
+            <!--блок №1-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/BD_1_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Бордюр дорожный ( бортовой камень)</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 1000х300х150 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 90 кг
+                        <br> Марка: БР 100.30.15
+                    </p>
+                </div>
+                <img class="prod-itm__img" style="height: 130px; width 260px;" src="img/BD_1.jpg">
+                <div class="prod-itm-price prod-itm-price_color-blue">
+                    <span>280 руб/шт</span>
+                </div>
+            </div>
+            <!--блок №2-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/PS_1_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Поребрик садовый 1м (газонный камень)</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 1000х200х80 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 34кг
+                        <br> Марка: БР 100.20.8
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/PS_1.jpg">
+                <div class="prod-itm-price prod-itm-price_color-purple">
+                    <span>150 руб/шт</span>
+                </div>
+            </div>
+            <!--блок №3-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/PS_05_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Поребрик садовый, 0,5м (газонный камень)</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 500х200х80 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 15 кг
+                        <br> Марка: БР 50.20.8
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/PS_05.jpg">
+                <div class="prod-itm-price prod-itm-price_color-sand">
+                    <span>75 руб/шт</span>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/0B6ocCovYLDnKNF9SeXI5eDZZVFE/view" target="_blank" data-type="document" style="width: 100%;  margin-top: 50px; margin-bottom: 50px;">
+                <div class="question-button">Прайс-лист</div>
+            </a>
+            <!--конец блоков-->
+        </div>
+        <!--Вибролитые изделия-->
+        <div class="content items-prod">
+            <a name="vibrolit"><h1 class="prod-section">Вибролитые изделия</h1></a>
+            <!--блок №1-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/512_big_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Лоток водосточный</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 496x160x60 мм
+                        <br> Марка: 500 d0
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/512_big.jpg">
+                <div class="prod-itm-price prod-itm-price_color-blue">
+                    <span>100 руб/шт</span>
+                </div>
+            </div>
+            <!--блок №2-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/325_big_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Полусфера бетонная (антипарковщик)</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 400х250 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 34кг
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/325_big.jpg">
+                <div class="prod-itm-price prod-itm-price_color-purple">
+                    <span>550 руб/шт</span>
+                </div>
+            </div>
+            <!--блок №3-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/0k6qzdGv9Gg_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Крышка столба</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 500х200х80 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 17
+                    </p>
+                </div>
+                <img class="prod-itm__img" src="img/0k6qzdGv9Gg.jpg">
+                <div class="prod-itm-price prod-itm-price_color-sand">
+                    <span>250 руб/шт</span>
+                </div>
+            </div>
+            <!--блок №4-->
+            <div class="itm-block itm-block_fix-prod-padding prod-itm">
+                <img class="prod-itm__img-live" src="img/m0k1jTmIxII_live.jpg">
+                <div class="prod-itm__text">
+                    <h4 class="prod-itm__text-name">Рядовая крышка</h4>
+                    <p class="prod-itm__text-specification">
+                        Размеры: 500х200х80 мм
+                        <br> Прочность: М350
+                        <br> Морозостойкость: F250
+                        <br> Вес: 17
+                    </p>
+                </div>
+                <img class="prod-itm__img" style="width: 270px; height:113px; margin-left: 0px;" src="img/m0k1jTmIxII.jpg">
+                <div class="prod-itm-price prod-itm-price_color-blue">
+                    <span>100 руб/шт</span>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/0B6ocCovYLDnKNF9SeXI5eDZZVFE/view" target="_blank" data-type="document" style="width: 100%;  margin-top: 50px; margin-bottom: 50px;">
+                <div class="question-button">Прайс-лист</div>
+            </a>
+            <!--конец блоков-->
+        </div>
+        <!--конец контента-->
+        <footer class="footer">
+            <div style="margin-top: 0;">
+                <div class="footer-block">
+                    <div class="footer-text">
+                        <h3 class="footer-block__h3">Адрес офиса (шоурума): </h3>
+                        <p class="footer-block__p"> г. Рязань, ул. Вокзальная д. 77, офис 74</p>
+                    </div>
+                    <div class="footer-text">
+                        <h3 class="footer-block__h3">Адрес склада (производства): </h3>
+                        <p class="footer-block__p"> г. Рязань, г. Рязань, ул. Прижелезнодорожная д. 30А</p>
+                    </div>
+                    <div class="dealer">
+                        <a href="dealers.html" class="download-contract">Стать дилером</a>
+                        <a href="https://drive.google.com/open?id=0BxwluZYinaRKQnE5bEQta2RfTEE" data-type="document" class="download-contract">Скачать образец договора поставки</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-11-content-itm_soc">
+                <a href="https://vk.com/stonevill"><img class="section-11-content-itm_soc__block-a-img" src="img/if_11_939748.svg"></a>
+                <a href="https://www.facebook.com/%D0%A1%D1%82%D0%BE%D1%83%D0%BD%D0%B2%D0%B8%D0%BB%D1%8C-%D0%A2%D1%80%D0%BE%D1%82%D1%83%D0%B0%D1%80%D1%8B-%D0%B8-%D0%B7%D0%B0%D0%B1%D0%BE%D1%80%D1%8B-941451102542807/"><img class="section-11-content-itm_soc__block-a-img" src="img/if_3_939757.svg"></a>
+                <a href="https://www.instagram.com/stonevill62/"><img class="section-11-content-itm_soc__block-a-img" src="img/if_Instagram_381384.svg"></a>
+            </div>
+        </footer>
+        <div class="navigation-anchor">
+            <a href="#trotuarnaya-plitka">
+                <div class="navigation-anchor__link prod-itm-price_color-blue prod-itm-price_color-blue_hover"><span>Тротуарная плитка</span></div>
+            </a>
+            <a href="#borders">
+                <div class="navigation-anchor__link prod-itm-price_color-purple prod-itm-price_color-purple_hover">Бордюры</div>
+            </a>
+            <a href="#vibrolit">
+                <div class="navigation-anchor__link prod-itm-price_color-sand prod-itm-price_color-sand_hover">Вибролитые изделия</div>
+            </a>
+        </div>
+        <!--Почему выбирают нас Конец-->
+        <!--скрипт для Меню-->
+        <script src="js/jquery.mmenu.all.min.js"></script>
+        <script type="text/javascript">
+        $(function() {
+            $('nav#menu').mmenu({
+                extensions: ['fx-menu-slide', 'shadow-page', 'shadow-panels', 'listview-large', 'pagedim-white'],
+                iconPanels: true,
+                counters: true,
+                keyboardNavigation: {
+                    enable: true,
+                    enhance: true
+                },
+                searchfield: {
+                    placeholder: 'Поиск позиций меню'
+                },
+                navbar: {
+                    title: 'Меню СТОУНВИЛЬ'
+                },
+                navbars: [{
+
+                }]
+            }, {
+                searchfield: {
+                    clear: true
+                }
+            });
+        });
+        </script>
+</body>
+
+</html>

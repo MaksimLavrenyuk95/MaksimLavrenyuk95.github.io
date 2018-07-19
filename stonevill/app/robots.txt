@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /plugins/
+Disallow: /search/
+
+
+User-agent: GoogleBot
+Disallow: /admin/
+Disallow: /plugins/
+Disallow: /search/
+Allow: /plugins/*.css
+Allow: /plugins/*.js
+Allow: /plugins/*.png
+Allow: /plugins/*.jpg
+Allow: /plugins/*.gif
+
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /plugins/
+Disallow: /search/
+
+Allow: /plugins/*.css
+Allow: /plugins/*.js
+Allow: /plugins/*.png
+Allow: /plugins/*.jpg
+Allow: /plugins/*.gif
+
+
+
+Host: http://xn--80aeahmkvnhb6amo4k.xn--p1ai
