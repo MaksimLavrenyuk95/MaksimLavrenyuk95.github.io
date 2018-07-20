@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>GRAFEN MASTER</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Создание сайта под ключ. Верстка, программирование, создание макета" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <!-- build:css css/main.min.css-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- endbuild -->
+    <!-- build:css css/portfolio-itm.min.css-->
+    <link rel="stylesheet" type="text/css" href="css/portfolio-itm.css">
+    <!-- endbuild -->
+    <!-- build:js libs/jquery-3.3.1.min.js-->
+    <script src="libs/jquery-3.3.1.js"></script>
+    <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" id="logo" href="index.html">L</a>
+        <nav class="menu">
+            <a href="portfolio.html" class="menu__a text_hover">Портфолио</a>
+            <button class="link-button popUp-button pmd-ripple-effect">Связаться</button>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="list-itm__header">
+            <h1 class="text-h1 text-h1_fs text-h1_position">"GRAFEN MASTER"</h1>
+            <a href="https://github.com/MaksimLavrenyuk95/MaksimLavrenyuk95.github.io/tree/master/grafen-master"><img class="footer-logo" src="img/github-logo.svg"></a>
+        </div>
+        
+        <div class="list-itm list_position" style="background-image: url(../img/grafen-master.png);"></div>
+        <a class="list-itm__link pmd-ripple-effect" href="https://maksimlavrenyuk95.github.io/grafen-master/app/index.html">Перейти на сайт</a>
+        <div class="portfolioItm-description">
+            <h2 class="portfolioItm-description__caption">Суть Заказа</h2>
+            <p class="portfolioItm-description__text">
+                Свертстать сайт и формы обратной связи, бэкэнд формы не трогать. 
+            </p>
+        </div>
+        <div class="portfolioItm-description">
+            <h2 class="portfolioItm-description__caption">Используемые технологии</h2>
+            <div class="portfolioItm-description__techno">
+                <img class="techno-img" src="img/css3.svg" alt="css3">
+                <img class="techno-img" src="img/html5.svg" alt="html5">
+                <img class="techno-img" src="img/sass-1.svg" alt="sass">
+                <img class="techno-img techno-img_differing-width" src="img/Gulp-Logo.svg" alt="gulp">
+                <img class="techno-img" src="img/jquery.svg" alt="jquery">
+            </div>
+            <p class="portfolioItm-description__text">
+                Адаптивная верстка без flexbox, css препроцессор - Sass. Сборка проекта производится с использованием gulp (autoprefixer, минификатор кода, оптимизация изображений).
+            </p>
+            
+        </div>
+
+    </div>
+    <footer class="footer">
+        <a href="https://github.com/MaksimLavrenyuk95"><img class="footer-logo" src="img/github-logo.svg"></a>
+    </footer>
+    <div id="overlay"></div>
+    <!-- Пoдлoжкa -->
+    <div id="modal_form">
+        <!-- Сaмo oкнo -->
+        <span id="modal_close"><img src="img/X.svg"></span>
+        <!-- Кнoпкa зaкрыть -->
+        <!-- Тут любoе сoдержимoе -->
+        <form action="feedback-form.php" method="post" class="submit-form" id="form">
+            <h3 class="form-input-h">Имя</h3>
+            <input class="form-input" type="text" name="name" required>
+            <h3 class="form-input-h">e-mail</h3>
+            <input class="form-input" type="email" name="email" required>
+            <h3 class="form-input-h">Тема работы <span class="form-input-h__clarification">- не обязательно</span></h3>
+            <textarea class="form-input" type="text" name="theme"></textarea>
+            <button type="submit" class="submit-button submit-button_position button_hover pmd-ripple-effect" id="send">Отправить</button>
+        </form>
+        <div class="messengers">
+            <div class="messengers-items">
+                <a title="telegram" class="messengers__itm button pmd-ripple-effect" href="https://t-do.ru/maksimlavrenyuk">
+                    <img class="messengers-logo" src="img/telegram-logo.svg" alt="telegram">
+                </a>
+                <a title="viber" class="messengers__itm button pmd-ripple-effect" href="viber://chat?number=79511040300">
+                    <img class="messengers-logo" src="img/viber-icon.svg" alt="viber">
+                </a>
+                <a title="whatsapp" class="messengers__itm button pmd-ripple-effect" href="https://wa.me/79511040300">
+                    <img class="messengers-logo" src="img/whatsapp-icon.svg" alt="whatsapp">
+                </a>
+                <a title="e-mail" class="messengers__itm button pmd-ripple-effect" href="mailto:lavrenyuk.ru@gmail.com">
+                    <img class="messengers-logo" src="img/mail.svg" alt="email">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $('.js-btn').click(() => {
+        $('html, body').animate({
+            scrollTop: $('.js-section').offset().top - 100
+        }, 500);
+    });
+    </script>
+    <!-- build:js js/main.min.js-->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/main.ripple-effect.js-->
+    <script src="js/ripple-effect.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

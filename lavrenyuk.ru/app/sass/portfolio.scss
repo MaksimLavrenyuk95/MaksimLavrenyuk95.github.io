@@ -1,0 +1,65 @@
+@import "list-itm";
+@import "porfolio-mediaqueries";
+
+
+
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.list_position {}
+
+
+
+.blur {
+    position: relative;
+    z-index: 1;
+    width: 75%;
+    height: 490px;
+    background-color: red;
+    opacity: 0;
+    transition: 1s;
+    background-color: #FAFAFA;
+}
+@media screen and (min-width:320px) {
+    
+    .portfolio-itm__h2 {
+        font-size: 1.125rem;
+
+    }
+
+}
+@media screen and (min-width:600px) {
+    
+    .portfolio-itm__h2 {
+        font-size: 1.625rem;
+
+    }
+
+}
+@media screen and (min-width:801px) {
+    
+    .portfolio-itm__h2 {
+    	font-size: 1.6rem;
+
+    }
+    .list-itm__header {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .portfolio-itm__h2 {
+        display: none;
+    }
+    
+}

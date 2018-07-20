@@ -1,0 +1,136 @@
+.list-itm__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-itm__link {
+	width: 100%;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+    border: 1px solid #1f262e;
+    text-decoration: none;
+    background-color: #95E2FC;
+    color: #1f262e;
+    transition: 0.1s;
+}
+
+.list-itm__link:hover {
+    background-color: #63d4fb;
+    transition: 0.1s;
+}
+
+.list-itm {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-itm-description {
+    position: relative;
+    width: 25%;
+    background: #95E2FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.list-itm-description_opacity-0 {
+    transition: 1s;
+    opacity: 0;
+}
+
+.list-itm:hover>.list-itm-description_opacity-0 {
+    opacity: 1;
+    transition: 1s;
+}
+
+.list-itm:hover>.blur {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.list-itm-description__text {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #1f262e;
+
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        word-wrap: break-word;
+        width: 200px;
+    }
+}
+
+.list-itm-descriptionImages {
+    margin-top: 50px;
+}
+
+.techno-img {
+    width: 70px;
+    height: 70px;
+    padding: 0 10px;
+}
+
+.techno-img:last-child {
+    border-right: none;
+}
+
+@media (min-width:320px) {
+
+    .list-itm {
+        height: 140px;
+        margin-top: 10px;
+    }
+    .list-itm__link {
+        padding: 5px 5px;
+        font-size: 16px;
+    }
+    .list-itm__header {
+    	margin-top: 40px;
+    }
+}
+
+@media (min-width:480px) {
+    .list-itm {
+        height: 220px;
+    }
+    .list-itm__link {
+        padding: 5px 10px;
+    }
+}
+
+@media (min-width:600px) {
+    .list-itm {
+        height: 280px;
+    }
+}
+
+@media screen and (min-width:801px) {
+
+    .list-itm {
+        height: 380px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media (min-width:1025px) {
+    .list-itm {
+        height: 480px;
+        margin-top: 40px;
+    }
+    .list-itm__link {
+        padding: 5px 5px;
+        font-size: 1rem;
+    }
+}
