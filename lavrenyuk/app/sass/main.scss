@@ -1,0 +1,36 @@
+@import "reset";
+@import "header";
+@import "footer";
+@import "submit-button";
+@import "link-button";
+@import "ripple-effect";
+@import "modal-feedback-form";
+@import "text-h1";
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: $main-font;
+    color: $font-color;
+    background-color: #FAFAFA;
+}
+
+.content {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding: 120px 10px 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.text_hover{
+    transition: 0.1s;
+}
+.text_hover:hover {
+    color: #63d4fb;
+    transition: 0.1s;
+}

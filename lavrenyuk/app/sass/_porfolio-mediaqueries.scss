@@ -1,0 +1,34 @@
+@import "var";
+@media (min-width:320px) {
+    
+    .list-itm-description {
+        display: none;
+    }
+    .blur {
+        display: none;
+    }
+    .list-itm-description__text {
+        p {
+            word-wrap: break-word;
+            width: auto;
+        }
+    }
+    
+
+}
+
+
+
+@media (min-width:1025px) {
+    
+    .list-itm-description {
+        width: 25%;
+    }
+    .blur {
+        display: block;
+        width: 75%;
+    }
+    .list-itm-description {
+        display: flex;
+    }
+}
