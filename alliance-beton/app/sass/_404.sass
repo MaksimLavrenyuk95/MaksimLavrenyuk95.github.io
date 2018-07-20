@@ -1,0 +1,38 @@
+.error-main
+	color: $light
+	height: 670px
+	background: url(../img/404-bg.jpg) center no-repeat
+	background-size: cover
+	padding-top: 300px
+	.title
+		padding-left: 270px
+		&::after
+			content: url(../img/404-title-border.png)
+			position: absolute
+			margin-top: -165px
+			margin-left: 75px
+		&::before
+			content: url(../img/404.png)
+			position: absolute
+			margin-left: -360px
+			margin-top: -20px
+		h1
+			@include bold
+			font-size: 30px
+			text-transform: uppercase
+			margin: 0
+			text-align: left
+			margin-bottom: 65px
+		.back
+			@include ibold
+			font-size: 14px
+			color: $light
+			text-decoration: underline
+			text-transform: uppercase
+			transition: all 0.2s ease
+			&::after
+				content: url(../img/back-arrow.png)
+				position: absolute
+				margin-left: 20px
+			&:hover
+				color: #a7dfff

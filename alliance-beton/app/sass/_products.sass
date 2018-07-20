@@ -1,0 +1,51 @@
+.products-main
+	color: $light
+	padding-top: 220px
+	padding-bottom: 25px
+	background: url(../img/page-bg.jpg) center no-repeat
+	background-size: cover
+	&::after
+		content: url(../img/products-img.png)
+		position: absolute
+		right: 0
+		margin-top: -73px
+	h1
+		margin: 0
+		@include bold
+		font-size: 70px
+		text-align: left
+		text-transform: uppercase
+	.nav
+		margin-top: 20px
+		.general
+			margin-right: 40px
+			@include ilight 
+			font-size: 14px
+			color: $light
+			text-decoration: underline
+			transition: all 0.2s ease
+			&:hover
+				color: #9ddbff
+			&::after
+				content: url(../img/dot.png)
+				position: absolute
+				margin-left: 20px
+				color: $light
+		p
+			display: inline-block
+			margin: 0
+			@include ilight
+			font-size: 14px
+
+.products-text
+	color: $light
+	background: url(../img/products-bg.jpg) center no-repeat
+	background-size: cover
+	padding-top: 65px
+	padding-bottom: 190px
+	.title
+		@include bold
+		font-size: 30px
+	.content
+		@include ibook
+		font-size: 18px

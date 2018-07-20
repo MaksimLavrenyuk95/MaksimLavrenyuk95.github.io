@@ -1,0 +1,181 @@
+.contacts-main
+	color: $light
+	padding-top: 220px
+	padding-bottom: 25px
+	background: url(../img/contacts-bg.png) center no-repeat
+	background-size: cover
+	
+	h1
+		margin: 0
+		@include bold
+		font-size: 70px
+		text-align: left
+		text-transform: uppercase
+	.nav
+		margin-top: 20px
+		.general
+			margin-right: 40px
+			@include ilight 
+			font-size: 14px
+			color: $light
+			text-decoration: underline
+			transition: all 0.2s ease
+			&:hover
+				color: #9ddbff
+			&::after
+				content: url(../img/dot.png)
+				position: absolute
+				margin-left: 20px
+				color: $light
+		p
+			display: inline-block
+			margin: 0
+			@include ilight
+			font-size: 14px
+
+.contacts-map 
+	width: 100%
+	height: 450px
+
+.contacts-content
+	position: relative
+	padding-bottom: 100px
+	width: 100%
+	min-height: 870px
+	background: url(../img/contacts-feedback-bg.png) center no-repeat
+	background-size: cover
+
+.contacts-blue-block 
+	position: relative
+	width: 50%
+	background: url(../img/blue-block.png) center no-repeat
+	background-size: cover
+	min-height: 870px
+
+.contacts-main-contents
+	position: absolute
+	top: 0
+	left: 10%
+	right: 10%
+	padding-top: 50px
+	display: flex
+	justify-content: space-between
+	align-items: flex-start
+	
+	
+.contacts-main-text
+	width: 50%;
+
+.contacts-main-text__h2 
+	@include bold
+	text-transform: uppercase;
+	color: $light
+	text-align: left
+	width: 75%
+	margin-bottom: 70px
+	&::before
+			content: ''
+			position: absolute
+			background: url(../img/contacts-border.png) center no-repeat
+			width: 430px
+			height: 230px
+			margin-left: 70px
+			margin-top: -85px
+
+.contacts-text-block 
+	
+	padding: 20px 0px 0px 0px
+	
+
+
+.contacts-text-block__title 
+	text-transform: uppercase
+	line-height: 1.333;
+	@include ibook
+	color: #a7dfff
+	text-align: left
+	margin: 0
+	margin-bottom: 5px
+	text-shadow: 0px 3px 6.02px rgba(26, 35, 36, 0.66)
+
+.contacts-text-block__span
+	display: block
+	line-height: 1.333;
+	@include ibook
+	color: $light
+	word-wrap: break-word
+	text-shadow: 0px 3px 6.02px rgba(26, 35, 36, 0.66)
+
+.contacts-text-block__adm-span 
+	line-height: 1.333;
+	@include ibook
+	color: #a7dfff
+	text-shadow: 0px 3px 6.02px rgba(26, 35, 36, 0.66)
+
+.feedback-contacts
+	width: 40%
+	margin: auto
+	min-height: 400px
+	background-color: #F9FEFD
+	display: flex
+	justify-content: space-between
+	color: #1A2419
+	@include ibook
+	background: url(../img/feedback-bg.png) center no-repeat
+	
+
+.feedback-contacts__form 
+	display: flex
+	justify-content: space-between
+	width: 100%
+
+.input-block-contacts
+	display: flex
+	flex-direction: column
+	
+	
+.input-block-contacts__input
+	width: 70%
+	margin: auto
+	display: flex
+	flex-direction: column
+	
+	 
+
+.feedback-contacts__input
+	line-height: 1.333;
+	@include ibook
+	background: none
+	padding: 10px
+	margin-top: 20px
+	border-right: none
+	border-left: none
+	border-top: none
+	font-weight: bold
+	border-bottom: 1px solid #000
+
+.feedback-contacts__alert
+	width: 70% 
+	padding-top: 20px
+	margin: auto
+	font-size: 14px
+
+.feedback-contacts__link
+	color: #1A2419
+	text-decoration: underline
+
+.feedback-contacts__button 
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	height: 400px
+	width: 30%
+	border: none
+	@include ibook
+	background: url(../img/contacts-button-bg.png) center no-repeat
+   
+
+	span 
+		padding-top: 10px
+		color: white

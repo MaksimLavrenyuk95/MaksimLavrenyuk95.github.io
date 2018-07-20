@@ -1,0 +1,195 @@
+
+.feedback-section
+	width: 70%
+	margin: auto
+	height: 200px
+	background-color: #F9FEFD
+	position: relative
+	bottom: 100px
+	border: 1px solid #000
+	display: flex
+	justify-content: space-between
+	color: #1A2419
+	@include ibook
+
+.feedback-text-call
+	padding-left: 5%
+	display: flex
+	justify-content: center
+	align-items: center
+	text-align: left
+	font-size: 30px
+	font-weight: bold
+
+
+.feedback-section__form 
+	display: flex
+	justify-content: space-between
+	align-items: center
+	width: 70%
+
+.input-block
+	display: flex
+	flex-direction: column
+	
+	
+.input-block__input
+	padding-right: 100px
+	width: 100%
+	display: flex
+	justify-content: space-between
+
+.feedback-section__input
+	line-height: 1.333;
+	@include ibook
+	background-color: #F9FEFD
+	padding: 10px
+	border-right: none
+	border-left: none
+	border-top: none
+	border-bottom: 1px solid #000
+
+.feedback-section__alert
+	width: 70% 
+	padding-top: 20px
+	font-size: 14px
+
+.feedback-section__link
+	color: #1A2419
+	text-decoration: underline
+
+.feedback-section__button 
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	height: 100%
+	width: 30%
+	border: none
+	@include ibook
+	background-image: linear-gradient( 300deg, rgb(255,255,255) 0%, rgb(242,255,255) 2%, rgb(148,206,241) 25%, rgb(77,144,180) 50%, rgb(46,89,123) 75%, rgb(19,24,24) 98%, rgb(3,3,3) 100%)
+   
+
+	span 
+		padding-top: 10px
+		color: white
+
+
+.price-main
+	color: $light
+	padding-top: 220px
+	padding-bottom: 25px
+	background: url(../img/page-bg.jpg) center no-repeat
+	background-size: cover
+	&::after
+		content: url(../img/price-img.png)
+		position: absolute
+		right: 0
+		margin-top: -100px
+	h1
+		margin: 0
+		@include bold
+		font-size: 70px
+		text-align: left
+		text-transform: uppercase
+	.nav
+		margin-top: 20px
+		.general
+			margin-right: 40px
+			@include ilight 
+			font-size: 14px
+			color: $light
+			text-decoration: underline
+			transition: all 0.2s ease
+			&:hover
+				color: #9ddbff
+			&::after
+				content: url(../img/dot.png)
+				position: absolute
+				margin-left: 20px
+				color: $light
+		p
+			display: inline-block
+			margin: 0
+			@include ilight
+			font-size: 14px
+
+.pricelist_background_none
+	background-image: none
+
+.pricelist-table-header_font_sm	
+  	font-size: 30px
+  	
+  
+.pricelist
+
+	.title
+
+		h2
+			text-shadow: none
+			padding-left: 90px
+			font-size: 30px
+			text-transform: none
+		
+		b 
+			color: #225e82
+			font-size: 18px 
+
+.pricelist-table-header_disabled 
+	display: none
+
+.pricelist
+
+	.table-block
+		
+		.table-block_long
+			width: 100%
+
+.price .table-block .table-block_long tbody tr td 
+	padding-bottom: 10px
+	padding-right: 10px
+
+
+.price .table-block .table-block_long tbody tr td:nth-child(2)
+	border-right: 1px solid #000
+
+.price .table-block .table-block_long tbody tr td:nth-child(1)
+	border-right: none	
+
+.price 
+	.table-block_disabled 
+		display: none
+
+.price .table-block .table-block_border_right tbody tr td:nth-child(1n)
+	border-right: 1px solid #000
+
+
+.price .table-block .table-block_border_right tbody tr td:last-child
+	border-right: none	
+
+.price .table-block .table-block_border_right thead tr th
+	padding-left: 20px
+
+.price .table-block .table-block_border_right tbody tr td
+	padding-left: 20px
+	padding-right: 5px
+
+.table-block_disabled 
+	display: none
+
+.pricelist-text
+	color: $light
+	background: url(../img/products-bg.jpg) center no-repeat
+	background-size: cover
+	padding-top: 0px
+	padding-bottom: 190px
+	.title
+		@include bold
+		font-size: 30px
+	.content
+		@include ibook
+		font-size: 18px
+
+@media(max-width: 1199px) 
+	.feedback-section
+		display: none
