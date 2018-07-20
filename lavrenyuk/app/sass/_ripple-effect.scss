@@ -1,0 +1,69 @@
+/*!
+* Propeller v1.0.0 (http://propeller.in)
+* Copyright 2016-2017 Digicorp, Inc.
+* Licensed under MIT (http://propeller.in/LICENSE)
+*/
+/* ------------------------------- Buttons CSS ------------------------------------ */
+.btn { display: inline-block; padding: 10px 14px; margin-bottom: 0; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; font-size: 14px; font-weight: bold; line-height: 1.1; text-transform: uppercase;letter-spacing: inherit; color: rgba(255, 255, 255, 0.87);}
+.btn-default, .l { color: rgba(0, 0, 0, 0.87);}
+/* ------------------------------ Buttons style ------------------------------------ */
+.btn { outline: 0; outline-offset: 0; border: 0; border-radius: 2px; transition: all 0.15s ease-in-out; -o-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; -webkit-transition: all 0.15s ease-in-out;}
+.btn:focus,.btn:active,.btn.active,.btn:active:focus,.btn.active:focus { outline: 0; outline-offset: 0; box-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none;}
+/* -------------------------- Buttons colors -------------------------------- */
+/* -- Buttons Default --*/
+.btn-default,.dropdown-toggle.btn-default { background-color: #ffffff;}
+.btn-default:hover,.dropdown-toggle.btn-default:hover { background-color: #e5e5e5;}
+.btn-default:active,.dropdown-toggle.btn-default:active,.btn-default.active,.dropdown-toggle.btn-default.active {background-color: #e5e5e5;}
+.btn-default:focus,.dropdown-toggle.btn-default:focus { background-color: #cccccc;}
+.btn-default:disabled,.dropdown-toggle.btn-default:disabled,.btn-default.disabled,.dropdown-toggle.btn-default.disabled,
+.btn-default[disabled],.dropdown-toggle.btn-default[disabled] { background-color: #b3b3b3;}
+.btn-default .ink,.dropdown-toggle.btn-default .ink { background-color: #b8b8b8;}
+/* -- Buttons Primary --*/
+.btn-primary,.dropdown-toggle.btn-primary{ background-color: #4285f4;}
+.btn-primary:hover,.dropdown-toggle.btn-primary:hover { background-color: #4e6cef;}
+.btn-primary:active,.dropdown-toggle.btn-primary:active,.btn-primary.active,.dropdown-toggle.btn-primary.active {background-color: #4e6cef;}
+.btn-primary:focus,.dropdown-toggle.btn-primary:focus { background-color: #455ede;}
+.btn-primary:disabled,.dropdown-toggle.btn-primary:disabled,.btn-primary.disabled,.dropdown-toggle.btn-primary.disabled,
+.btn-primary[disabled],.dropdown-toggle.btn-primary[disabled] { background-color: #b3b3b3;}
+.btn-primary .ink,.dropdown-toggle.btn-primary .ink { background-color: #3b50ce;}
+/* -- Buttons Success --*/
+.btn-success,
+.dropdown-toggle.btn-success { background-color: #259b24;}
+.btn-success:hover,.dropdown-toggle.btn-success:hover { background-color: #0a8f08;}
+.btn-success:active,.dropdown-toggle.btn-success:active,.btn-success.active,.dropdown-toggle.btn-success.active { background-color: #0a8f08;}
+.btn-success:focus,.dropdown-toggle.btn-success:focus { background-color: #0a7e07;}
+.btn-success:disabled,.dropdown-toggle.btn-success:disabled,.btn-success.disabled,.dropdown-toggle.btn-success.disabled,
+.btn-success[disabled],.dropdown-toggle.btn-success[disabled] { background-color: #b3b3b3;}
+.btn-success .ink,.dropdown-toggle.btn-success .ink { background-color: #056f00;}
+/* -- Buttons Info --*/
+.btn-info,.dropdown-toggle.btn-info { background-color: #03a9f4;}
+.btn-info:hover,.dropdown-toggle.btn-info:hover { background-color: #039be5;}
+.btn-info:active,.dropdown-toggle.btn-info:active,.btn-info.active,.dropdown-toggle.btn-info.active { background-color: #039be5;}
+.btn-info:focus,.dropdown-toggle.btn-info:focus { background-color: #0288d1;}
+.btn-info:disabled,.dropdown-toggle.btn-info:disabled,.btn-info.disabled,.dropdown-toggle.btn-info.disabled,.btn-info[disabled],.dropdown-toggle.btn-info[disabled] { background-color: #b3b3b3;}
+.btn-info .ink,.dropdown-toggle.btn-info .ink { background-color: #0277bd;}
+/* -- Buttons Warning --*/
+.btn-warning,.dropdown-toggle.btn-warning { background-color: #ffc107;}
+.btn-warning:hover,.dropdown-toggle.btn-warning:hover { background-color: #ffb300;}
+.btn-warning:active,.dropdown-toggle.btn-warning:active,.btn-warning.active,.dropdown-toggle.btn-warning.active { background-color: #ffb300;}
+.btn-warning:focus,.dropdown-toggle.btn-warning:focus { background-color: #ffa000;}
+.btn-warning:disabled,.dropdown-toggle.btn-warning:disabled,.btn-warning.disabled,.dropdown-toggle.btn-warning.disabled, .btn-warning[disabled],.dropdown-toggle.btn-warning[disabled] { background-color: #b3b3b3;}
+.btn-warning .ink,.dropdown-toggle.btn-warning .ink { background-color: #ff8f00;}
+/* -- Buttons Danger --*/
+.btn-danger,.dropdown-toggle.btn-danger { background-color: #ff5722;}
+.btn-danger:hover,.dropdown-toggle.btn-danger:hover { background-color: #f4511e;}
+.btn-danger:active,.dropdown-toggle.btn-danger:active,.btn-danger.active,.dropdown-toggle.btn-danger.active { background-color: #f4511e;}
+.btn-danger:focus,.dropdown-toggle.btn-danger:focus { background-color: #e64a19;}
+.btn-danger:disabled,.dropdown-toggle.btn-danger:disabled,.btn-danger.disabled,.dropdown-toggle.btn-danger.disabled,.btn-danger[disabled],.dropdown-toggle.btn-danger[disabled] { background-color: #b3b3b3;}
+.btn-danger .ink,.dropdown-toggle.btn-danger .ink { background-color: #d84315;}
+/* -- Buttons sizes -------------------------------- */
+.btn { min-width: 88px; padding: 10px 14px;}
+/* --------------------------------- Ripple effect -------------------------------- */
+.pmd-ripple-effect { position: relative; overflow: hidden; -webkit-transform: translate3d(0, 0, 0);}
+.ink { display: block; position: absolute; pointer-events: none; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%; -ms-border-radius: 50%; -webkit-transform: scale(0); -moz-transform: scale(0); -ms-transform: scale(0); -o-transform: scale(0); transform: scale(0); background: #fff; opacity: 1;}
+.ink.animate { -webkit-animation: ripple .5s linear ; -moz-animation: ripple .5s linear; -ms-animation: ripple .5s linear; -o-animation: ripple .5s linear; animation: ripple .5s linear;}
+@keyframes ripple {100% { opacity: 0; transform: scale(2.5);}}
+@-webkit-keyframes ripple { 100% { opacity: 0;  -webkit-transform: scale(2.5); transform: scale(2.5);}}
+@-moz-keyframes ripple { 100% { opacity: 0; -moz-transform: scale(2.5); transform: scale(2.5);}}
+@-ms-keyframes ripple { 100% { opacity: 0; -ms-transform: scale(2.5); transform: scale(2.5);}}
+@-o-keyframes ripple { 100% { opacity: 0; -o-transform: scale(2.5); transform: scale(2.5);}}
