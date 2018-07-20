@@ -41,13 +41,13 @@
         <span id="modal_close"><img src="img/X.svg"></span>
         <!-- Кнoпкa зaкрыть -->
         <!-- Тут любoе сoдержимoе -->
-        <form action="feedback-form.php" method="post" class="submit-form" id="form">
+        <form action="feedback-form.php" method="post" class="submit-form" id="form" autocomplete="on">
             <h3 class="form-input-h">Имя</h3>
-            <input class="form-input" type="text" name="name"  required>
+            <input class="form-input" type="text" name="name" autocomplete="on"  required>
             <h3 class="form-input-h">e-mail</h3>
-            <input class="form-input" type="email" name="email"  required>
+            <input class="form-input" type="email" name="email" autocomplete="on"  required>
             <h3 class="form-input-h">Тема работы <span class="form-input-h__clarification">- не обязательно</span></h3>
-            <textarea class="form-input" type="text" name="theme"></textarea>
+            <textarea class="form-input" type="text" name="theme" autocomplete="off"></textarea>
             <button type="submit" class="submit-button submit-button_position button_hover pmd-ripple-effect" id="send">Отправить</button>
         </form>
         <div class="messengers">
